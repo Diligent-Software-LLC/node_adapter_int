@@ -45,7 +45,7 @@ class NodeAdapterInt
   #   Instantiates a NodeAdapter instance.
   # @param n [Node]
   #   The adapting instance.
-  # @return [Node]
+  # @return [NodeAdapter]
   #   The instance.
   def initialize(n = nil)
   end
