@@ -34,9 +34,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa4854f-553f-443e-a64f-12f294285378" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_adapter_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_adapter_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_adapter_int_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="317" />
+    <option name="myElementSize" value="369" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -195,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587248290489</updated>
       <workItem from="1587248295838" duration="7304000" />
-      <workItem from="1589740664031" duration="2504000" />
+      <workItem from="1589740664031" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added a version.rb, node_adapter_int.rb, node_adapter_int_test.rb, test_helper.rb, .travis.yml, node_adapter_int.gemspec, README.md, .yardopts, Changelog.md, CODE_OF_CONDUCT.md, and GNU General Public License, Version 3.">
       <created>1587250432980</created>
@@ -232,10 +230,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589742236292</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Development Complete&#10;&#10;Edited documentation. Edited 'initialize(n = nil)' privacy. 'initialize(n = nil)' is public. Added 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()'. Deleted 'data()' and 'data=(dti = nil)'. Added test coverage.">
+      <created>1589743807410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589743807410</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Interface Sprints: 9 State: {Development}" />
+        <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Interface Sprints: 9 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -262,17 +267,18 @@
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Documentation fix." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Fixed Gem Specification email, homepage, and changelog URI. Added a node_int runtime dependency. Fixed README.md's Installation link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Fixed Gem Specification email, homepage, and changelog URI. Added a node_int runtime dependency. Fixed README.md's Installation link." />
+    <MESSAGE value="Development Complete&#10;&#10;Edited documentation. Edited 'initialize(n = nil)' privacy. 'initialize(n = nil)' is public. Added 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()'. Deleted 'data()' and 'data=(dti = nil)'. Added test coverage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Edited documentation. Edited 'initialize(n = nil)' privacy. 'initialize(n = nil)' is public. Added 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()'. Deleted 'data()' and 'data=(dti = nil)'. Added test coverage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="175" key="#Servers" timestamp="1587248375757">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="440" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587248375757" />
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1589742235884">
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1589744155662">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589742235884" />
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589744155662" />
     <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1589743619921">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -301,10 +307,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="505" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587261194882" />
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589742270516">
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1589743859297">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589742270516" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1589743859297" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_adapter_int@test_prot_m_dec.rcov" NAME="test_prot_m_dec Coverage Results" MODIFIED="1587252137163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter_int" />
