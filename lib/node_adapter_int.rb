@@ -4,15 +4,28 @@
 require_relative "node_adapter_int/version"
 
 # NodeAdapterInt.
+# @abstract
 # @class_description
 #   A NodeAdapter interface.
-# @attr back [Node, NilCLass]
+# @attr back [Node, NilClass]
 #   A 'back' instance reference.
 # @attr data [DataType]
-#   A 'data' instance reference.
+#   A DataType type instance reference.
 # @attr front [Node, NilClass]
 #   A 'front' instance reference.
-class NodeAdapterInt
+class NodeAdapterInt < NodeInt
+
+  # initialize(n = nil).
+  # @description
+  #   Initializes a NodeAdapter.
+  # @param n [Node]
+  #   The adapting instance.
+  # @return [NodeAdapter]
+  #   The instance.
+  # @raise [ArgumentError]
+  #   In the case n is not a Node instance.
+  def initialize(n = nil)
+  end
 
   # back().
   # @description
@@ -20,14 +33,6 @@ class NodeAdapterInt
   # @return [Node, NilClass]
   #   back's reference.
   def back()
-  end
-
-  # data().
-  # @description
-  #   Gets data's reference.
-  # @return [DataType]
-  #   data's reference.
-  def data()
   end
 
   # front().
@@ -38,16 +43,44 @@ class NodeAdapterInt
   def front()
   end
 
-  protected
-
-  # initialize(n = nil).
+  # attach_back(n = nil).
   # @description
-  #   Instantiates a NodeAdapter instance.
+  #   Attaches back a Node.
   # @param n [Node]
-  #   The adapting instance.
-  # @return [NodeAdapter]
-  #   The instance.
-  def initialize(n = nil)
+  #   An attachment Node.
+  # @return [NilClass]
+  #   nil.
+  # @raise [ArgumentError]
+  #   In the case the argument is any type other than Node.
+  def attach_back(n = nil)
+  end
+
+  # attach_front(n = nil).
+  # @description
+  #   Attaches front the argument Node.
+  # @param n [Node]
+  #   The attachment.
+  # @return [NilClass]
+  #   nil.
+  # @raise [ArgumentError]
+  #   In the case the argument is any type other than Node.
+  def attach_front(n = nil)
+  end
+
+  # detach_back().
+  # @description
+  #   Sets back nil.
+  # @return [NilClass]
+  #   nil.
+  def detach_back()
+  end
+
+  # detach_front().
+  # @description
+  #   Sets front nil.
+  # @return [NilClass]
+  #   nil.
+  def detach_front()
   end
 
   private
@@ -60,16 +93,6 @@ class NodeAdapterInt
   # @return [Node, NilClass]
   #   The argument.
   def back=(n = nil)
-  end
-
-  # data=(dti = nil).
-  # @description
-  #   Sets data's reference.
-  # @param dti [DataType]
-  #   data's setting.
-  # @return [DataType]
-  #   The argument.
-  def data=(dti = nil)
   end
 
   # front=(n = nil).
