@@ -34,7 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa4854f-553f-443e-a64f-12f294285378" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/node_adapter_int.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/node_adapter_int.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_adapter_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/node_adapter_int.gemspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +71,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -193,7 +196,10 @@
       <option name="presentableId" value="Default" />
       <updated>1587248290489</updated>
       <workItem from="1587248295838" duration="7304000" />
-      <workItem from="1589740664031" duration="3179000" />
+      <workItem from="1589740664031" duration="4657000" />
+      <workItem from="1589748648322" duration="16000" />
+      <workItem from="1589751661766" duration="730000" />
+      <workItem from="1589819651569" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added a version.rb, node_adapter_int.rb, node_adapter_int_test.rb, test_helper.rb, .travis.yml, node_adapter_int.gemspec, README.md, .yardopts, Changelog.md, CODE_OF_CONDUCT.md, and GNU General Public License, Version 3.">
       <created>1587250432980</created>
@@ -237,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589743807410</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1589744176630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589744176630</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Interface Sprints: 9 State: {Prepare Deployment}" />
@@ -264,41 +277,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added a version.rb, node_adapter_int.rb, node_adapter_int_test.rb, test_helper.rb, .travis.yml, node_adapter_int.gemspec, README.md, .yardopts, Changelog.md, CODE_OF_CONDUCT.md, and GNU General Public License, Version 3." />
     <MESSAGE value="Development Complete&#10;&#10;Added NodeAdapterInt 'back()', 'data()', 'front()', 'initialize(n = nil)', 'back=(n = nil)', 'data=(dti = nil)', and 'front=(n = nil)' method signatures. Added corresponding declaration tests." />
-    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Documentation fix." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Fixed Gem Specification email, homepage, and changelog URI. Added a node_int runtime dependency. Fixed README.md's Installation link." />
     <MESSAGE value="Development Complete&#10;&#10;Edited documentation. Edited 'initialize(n = nil)' privacy. 'initialize(n = nil)' is public. Added 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()'. Deleted 'data()' and 'data=(dti = nil)'. Added test coverage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Edited documentation. Edited 'initialize(n = nil)' privacy. 'initialize(n = nil)' is public. Added 'attach_back(n = nil)', 'attach_front(n = nil)', 'detach_back()', and 'detach_front()'. Deleted 'data()' and 'data=(dti = nil)'. Added test coverage." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="175" key="#Servers" timestamp="1587248375757">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="440" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587248375757" />
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1589744155662">
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1589820039545">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589744155662" />
-    <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1589743619921">
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1589820039545" />
+    <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1589820049900">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589743619921" />
-    <state width="1588" height="271" key="GridCell.Tab.0.center" timestamp="1589743619920">
+    <state width="1588" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1589820049900" />
+    <state width="1588" height="271" key="GridCell.Tab.0.center" timestamp="1589820049899">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589743619920" />
-    <state width="1588" height="271" key="GridCell.Tab.0.left" timestamp="1589743619919">
+    <state width="1588" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1589820049899" />
+    <state width="1588" height="271" key="GridCell.Tab.0.left" timestamp="1589820049898">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589743619919" />
-    <state width="1588" height="271" key="GridCell.Tab.0.right" timestamp="1589743619920">
+    <state width="1588" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1589820049898" />
+    <state width="1588" height="271" key="GridCell.Tab.0.right" timestamp="1589820049899">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1588" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589743619920" />
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587260775384">
+    <state width="1588" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1589820049899" />
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1589744194206">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587260775384" />
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1589744194206" />
     <state x="432" y="235" width="816" height="550" key="find.popup" timestamp="1587249203075">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -314,7 +327,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_adapter_int@test_prot_m_dec.rcov" NAME="test_prot_m_dec Coverage Results" MODIFIED="1587252137163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter_int" />
-    <SUITE FILE_PATH="coverage/node_adapter_int@NodeAdapterIntTest.rcov" NAME="NodeAdapterIntTest Coverage Results" MODIFIED="1589743615927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter_int" />
+    <SUITE FILE_PATH="coverage/node_adapter_int@NodeAdapterIntTest.rcov" NAME="NodeAdapterIntTest Coverage Results" MODIFIED="1589820043839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter_int" />
     <SUITE FILE_PATH="coverage/node_adapter_int@test_priv_m_dec.rcov" NAME="test_priv_m_dec Coverage Results" MODIFIED="1587252703159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_adapter_int" />
   </component>
 </project>
