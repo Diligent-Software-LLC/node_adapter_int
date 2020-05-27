@@ -35,8 +35,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa4854f-553f-443e-a64f-12f294285378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_adapter_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_adapter_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_adapter_int/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +199,7 @@
       <workItem from="1589751661766" duration="730000" />
       <workItem from="1589819651569" duration="634000" />
       <workItem from="1589919326438" duration="10000" />
-      <workItem from="1590594238460" duration="1884000" />
+      <workItem from="1590594238460" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added a version.rb, node_adapter_int.rb, node_adapter_int_test.rb, test_helper.rb, .travis.yml, node_adapter_int.gemspec, README.md, .yardopts, Changelog.md, CODE_OF_CONDUCT.md, and GNU General Public License, Version 3.">
       <created>1587250432980</created>
@@ -280,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590596098852</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prepare Deployment&#10;&#10;Dependency bug.">
+      <created>1590596227725</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590596227725</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Prepare Deployment&#10;&#10;Testing dependency bug.">
+      <created>1590596379722</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590596379723</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Node Subsystem: Adapter Component: Interface State: {Prepare Deployment} Sprints: 10" />
@@ -315,17 +327,19 @@
     <MESSAGE value="Setup Complete&#10;&#10;Updated source documentation. Fixed the node_int dependency." />
     <MESSAGE value="Development Complete&#10;&#10;Updated source documentation. All tests pass." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Edited Travis CI configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Edited Travis CI configuration." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Dependency bug." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Testing dependency bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Testing dependency bug." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="175" key="#Servers" timestamp="1587248375757">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="440" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1587248375757" />
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1590596227394">
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2" timestamp="1590596379460">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590596227394" />
+    <state x="48" y="50" width="1582" height="920" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590596379460" />
     <state width="1588" height="271" key="GridCell.Tab.0.bottom" timestamp="1590595665550">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -342,10 +356,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state width="1588" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1590595665550" />
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1590596370237">
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2" timestamp="1590596383447">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590596370237" />
+    <state x="440" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590596383447" />
     <state x="432" y="235" width="816" height="550" key="find.popup" timestamp="1587249203075">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
