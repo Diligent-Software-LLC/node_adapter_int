@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.2.1, 2020-05-27
+
+### Added
+
+### Edited
+
+- Updated source documentation.
+
+### Fixed
+
+- The node_int dependency. Was a runtime dependency, and became a development
+ dependency.
+
 ## v0.2.0, 2020-05-17
 
 ### Added
