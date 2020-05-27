@@ -7,12 +7,12 @@ require_relative "node_adapter_int/version"
 # @abstract
 # @class_description
 #   A NodeAdapter interface.
-# @attr back [Node, NilClass]
-#   A 'back' instance reference.
+# @attr back [NodeAdapter, NilClass]
+#   A backward reference.
 # @attr data [DataType]
-#   A DataType type instance reference.
-# @attr front [Node, NilClass]
-#   A 'front' instance reference.
+#   A 'data' instance reference.
+# @attr front [NodeAdapter, NilClass]
+#   A forward reference.
 class NodeAdapterInt < NodeInt
 
   # initialize(n = nil).
