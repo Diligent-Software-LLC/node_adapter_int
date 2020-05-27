@@ -7,12 +7,12 @@ require 'node_int'
 # @abstract
 # @class_description
 #   A NodeAdapter interface.
-# @attr back [Node, NilClass]
-#   A 'back' instance reference.
+# @attr back [NodeAdapter, NilClass]
+#   A backward reference.
 # @attr data [DataType]
 #   A 'data' instance reference.
-# @attr front [Node, NilClass]
-#   A 'front' instance reference.
+# @attr front [NodeAdapter, NilClass]
+#   A forward reference.
 class NodeAdapterInt < NodeInt
-  VERSION = '0.2.0'.freeze()
+  VERSION = '0.2.1'.freeze()
 end
