@@ -13,7 +13,7 @@ require_relative "node_adapter_int/version"
 #   A 'data' instance reference.
 # @attr front [NodeAdapter, NilClass]
 #   A forward reference.
-class NodeAdapterInt #< NodeInt
+class NodeAdapterInt < NodeInt
 
   # initialize(n = nil).
   # @description

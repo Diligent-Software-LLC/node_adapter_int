@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
-# require 'node_int'
+require 'node_int'
 
 # NodeAdapterInt.
 # @abstract
@@ -13,6 +13,6 @@
 #   A 'data' instance reference.
 # @attr front [NodeAdapter, NilClass]
 #   A forward reference.
-class NodeAdapterInt #< NodeInt
+class NodeAdapterInt < NodeInt
   VERSION = '0.2.1'.freeze()
 end
